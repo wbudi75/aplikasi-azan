@@ -38,7 +38,8 @@ Kamu bisa mengubah variabel di bagian **CONFIG** pada file `azan.py`:
 * `CITY`: Ubah ke kota tempat tinggalmu.
 * `NEAR_MINUTES`: Durasi peringatan dini (default 15 menit).
 
----
+<img width="518" height="297" alt="aplikasi-azan" src="https://github.com/user-attachments/assets/603cd6dc-3097-41ca-88b1-162d214d9ee6" />
+
 
 *Dibuat dengan Python untuk mempermudah ibadah di tengah kesibukan coding.*
 
