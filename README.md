@@ -25,6 +25,7 @@ Pastikan file azan kamu berada di folder `sounds/azan.mp3`.
 python3 azan.py
 
 ## 📂 Struktur Project
+
 aplikasi-azan/
 ├── azan.py           # Script utama logic Python
 ├── sounds/
