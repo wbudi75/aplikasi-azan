@@ -10,7 +10,7 @@ Aplikasi pengingat waktu sholat berbasis **CLI (Command Line Interface)** yang r
 - 🐧 **Native Linux Integration**: Memanfaatkan alat bawaan Linux (`notify-send` & `ffplay`) sehingga sangat ringan tanpa beban library berat.
 
 ## 🛠️ Prasyarat (Dependencies)
-Script ini dirancang untuk distro berbasis Debian/Ubuntu (termasuk Kali Linux). Pastikan kamu sudah menginstal paket berikut:
+Script ini dirancang untuk distro berbasis Debian/Ubuntu. Pastikan kamu sudah menginstal paket berikut:
 sudo apt update
 sudo apt install python3-requests python3-dateutil ffmpeg libnotify-bin -y
 
