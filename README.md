@@ -18,8 +18,8 @@ sudo apt install python3-requests python3-dateutil ffmpeg libnotify-bin -y
 
 1. **Clone Repository**:
 git clone [https://github.com/wbudi75/aplikasi-azan.git](https://github.com/wbudi75/aplikasi-azan.git)
-cd aplikasi-azan
-2. **Siapkan File Audio**:
+2. **cd aplikasi-azan**
+3. **File Audio sudah ditempatnya**:
 Pastikan file azan kamu berada di folder `sounds/azan.mp3`.
 3. **Jalankan Aplikasi**:
 python3 azan.py
