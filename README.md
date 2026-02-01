@@ -27,12 +27,6 @@ python3 azan.py
 ## 📂 Struktur Project
 <img width="429" height="192" alt="sturktur-folder" src="https://github.com/user-attachments/assets/0a8bbdb7-1042-48ce-94d5-07835ae0a276" />
 
-aplikasi-azan/
-|
-├── azan.py           # Script utama logic Python
-├── sounds/
-│   └── azan.mp3      # File audio azan
-└── README.md         # Dokumentasi project
 
 ## ⚙️ Kustomisasi
 
