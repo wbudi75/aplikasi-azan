@@ -1,22 +1,22 @@
-# 🕌 Python Azan CLI Reminder
+# Python Azan CLI Reminder
 
 Aplikasi pengingat waktu sholat berbasis **CLI (Command Line Interface)** yang ringan dan efisien untuk pengguna Linux. Script ini tidak hanya menampilkan jadwal sholat, tetapi juga memberikan peringatan dini sebelum waktu sholat tiba dan memutar azan secara otomatis.
 
-## ✨ Fitur Utama
-- 📅 **Real-time Schedule**: Mengambil data jadwal sholat akurat dari API Aladhan sesuai lokasi (Balikpapan, Indonesia).
-- 🔔 **Early Warning System**: Notifikasi pop-up sistem 15 menit sebelum waktu sholat tiba untuk persiapan (Wudhu/ke Masjid).
-- 🔊 **Auto Azan Playback**: Memutar audio azan secara otomatis saat memasuki waktu sholat.
-- 🎨 **Visual Countdown**: Tampilan terminal yang informatif dengan warna ANSI dan fitur countdown ke waktu sholat berikutnya.
-- 🐧 **Native Linux Integration**: Memanfaatkan alat bawaan Linux (`notify-send` & `ffplay`) sehingga sangat ringan tanpa beban library berat.
+## Fitur Utama
+-  **Real-time Schedule**: Mengambil data jadwal sholat akurat dari API Aladhan sesuai lokasi (Balikpapan, Indonesia).
+-  **Early Warning System**: Notifikasi pop-up sistem 15 menit sebelum waktu sholat tiba untuk persiapan (Wudhu/ke Masjid).
+-  **Auto Azan Playback**: Memutar audio azan secara otomatis saat memasuki waktu sholat.
+-  **Visual Countdown**: Tampilan terminal yang informatif dengan warna ANSI dan fitur countdown ke waktu sholat berikutnya.
+-  **Native Linux Integration**: Memanfaatkan alat bawaan Linux (`notify-send` & `ffplay`) sehingga sangat ringan tanpa beban library berat.
 
-## 🛠️ Prasyarat (Dependencies)
+## Prasyarat (Dependencies)
 Script ini dirancang untuk distro berbasis Debian/Ubuntu. Pastikan kamu sudah menginstal paket berikut:
 <br>
 sudo apt update
 <br>
 sudo apt install python3-requests python3-dateutil ffmpeg libnotify-bin -y
 
-## 🚀 Cara Instalasi & Penggunaan
+## Cara Instalasi & Penggunaan
 
 1. **Clone Repository**:
 git clone [https://github.com/wbudi75/aplikasi-azan.git](https://github.com/wbudi75/aplikasi-azan.git)
@@ -26,11 +26,11 @@ Pastikan file azan kamu berada di folder `sounds/azan.mp3`.
 3. **Jalankan Aplikasi**:
 python3 azan.py
 
-## 📂 Struktur Project
+## Struktur Project
 <img width="429" height="192" alt="sturktur-folder" src="https://github.com/user-attachments/assets/0a8bbdb7-1042-48ce-94d5-07835ae0a276" />
 
 
-## ⚙️ Kustomisasi
+## Kustomisasi
 
 Kamu bisa mengubah variabel di bagian **CONFIG** pada file `azan.py`:
 
