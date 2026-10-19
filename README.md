@@ -11,6 +11,7 @@ Aplikasi pengingat waktu sholat berbasis **CLI (Command Line Interface)** yang r
 
 ## 🛠️ Prasyarat (Dependencies)
 Script ini dirancang untuk distro berbasis Debian/Ubuntu. Pastikan kamu sudah menginstal paket berikut:
+''bash
 sudo apt update
 sudo apt install python3-requests python3-dateutil ffmpeg libnotify-bin -y
 
